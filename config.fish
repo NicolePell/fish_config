@@ -1,3 +1,4 @@
-set -g -x PATH /usr/local/bin $PATH
+set -gx PATH /usr/local/bin $PATH
+set -gx LSCOLORS gxfxcxdxbxegedabagacad
 
 . "$HOME/.config/fish/functions/aliases.fish"
